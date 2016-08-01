@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/btn_setfence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF"
+        android:text="@string/set_fence"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_monitoredstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btn_setfence"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:background="#FFFFFF"
+        android:text="@string/monitored_status"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_historyalarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btn_monitoredstatus"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:background="#FFFFFF"
+        android:text="@string/history_alarm"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btn_delayalarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btn_historyalarm"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:background="#FFFFFF"
+        android:text="@string/delay_alarm"
+        android:textColor="#000000" />
+
+</RelativeLayout>
